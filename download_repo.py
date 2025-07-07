@@ -1,7 +1,6 @@
 import requests
 import os
 
-user = "nome-do-usuario"
 url = f"https://api.github.com/users/b1gn0se/repos?per_page=100&type=all"
 repos = requests.get(url).json()
 
